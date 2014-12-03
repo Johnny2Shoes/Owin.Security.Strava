@@ -162,7 +162,7 @@ namespace Owin.Security.Strava
                         "?client_id=" + Uri.EscapeDataString(Options.ClientId) +
                         "&response_type=code" +
                         "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
-                        "scope=" + Uri.EscapeDataString(scope) +
+                        "&scope=" + Uri.EscapeDataString(scope) +
                         "&state=" + Uri.EscapeDataString(state);
 
                 Response.StatusCode = 302;
