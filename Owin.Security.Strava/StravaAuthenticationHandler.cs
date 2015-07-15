@@ -152,6 +152,9 @@ namespace Owin.Security.Strava
                 // OAuth2 10.12 CSRF
                 GenerateCorrelationId(extra);
 
+                if (Options.Scope.Count == 0)
+                    Options.Scope.Add("public"); // Bad request if there is no scope.
+                
                 // OAuth2 3.3 space separated
                 string scope = string.Join(" ", Options.Scope);
 
