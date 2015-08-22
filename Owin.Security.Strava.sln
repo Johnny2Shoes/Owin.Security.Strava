@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Security.Strava", "Owin.Security.Strava\Owin.Security.Strava.csproj", "{9FD72CAA-0950-4D99-89BB-9C2F852D7D1C}"
 EndProject
@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A2F226
 		Owin.Security.Strava\StravaAuthenticationHandler.cs = Owin.Security.Strava\StravaAuthenticationHandler.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "D:\My Documents\Visual Studio 2013\Projects\WebApplication1\WebApplication1\WebApplication1.csproj", "{1A954F9E-17A7-4AF7-8009-E8DE7512AEC2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,10 +23,6 @@ Global
 		{9FD72CAA-0950-4D99-89BB-9C2F852D7D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD72CAA-0950-4D99-89BB-9C2F852D7D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD72CAA-0950-4D99-89BB-9C2F852D7D1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A954F9E-17A7-4AF7-8009-E8DE7512AEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A954F9E-17A7-4AF7-8009-E8DE7512AEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A954F9E-17A7-4AF7-8009-E8DE7512AEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A954F9E-17A7-4AF7-8009-E8DE7512AEC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
